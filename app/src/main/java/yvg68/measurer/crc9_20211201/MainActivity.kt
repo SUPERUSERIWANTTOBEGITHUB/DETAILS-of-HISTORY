@@ -14,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         carRecyclerView = findViewById(R.id.car_view)
+        val carList: List<Car> = listOf(
+            Car("bugatty_veyron", R.drawable.bugatty_veyron),
+            Car("maseraty", R.drawable.maseraty),
+            Car("red_car", R.drawable.red_car)
+        )
         carRecyclerView.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         carRecyclerView.adapter = CarAdapter(carList)
