@@ -1,5 +1,5 @@
 package yvg68.measurer.crc9_20211201
-
+//
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
