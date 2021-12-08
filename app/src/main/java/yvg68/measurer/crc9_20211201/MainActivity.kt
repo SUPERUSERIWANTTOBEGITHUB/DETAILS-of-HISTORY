@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         val carList: List<Car> = listOf(
             Car("bugatty_veyron", R.drawable.bugatty_veyron),
             Car("maseraty", R.drawable.maseraty),
-            Car("red_car", R.drawable.red_car)
+            Car("audi_gray", R.drawable.audi_gray),
+            Car("audi_red", R.drawable.audi_red),
+            Car("audi_black", R.drawable.audi_black)
         )
         carRecyclerView.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
